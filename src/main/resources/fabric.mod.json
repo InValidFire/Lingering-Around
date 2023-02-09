@@ -1,25 +1,25 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "lingering_around",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Lingering Around",
+  "description": "Change the recipe for Lingering Potions, making them more accessible to brewers.",
   "authors": [
-    "Me!"
+    "InValidFire"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://quack.gay/",
+    "sources": "https://github.com/InValidFire/Lingering-Around"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "GPLv3",
+  "icon": "assets/lingering_around/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "gay.quack.lingering_around.LingeringAround"
     ]
   },
   "mixins": [
